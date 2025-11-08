@@ -12,7 +12,7 @@ function loadFunctionCont(text, next, comic, end) {
   if (end) {
     cont.innerHTML = text;
   } else {
-    cont.innerHTML = `<a href="page2.html?v=2&comic=${comic}&page=${next}">${text}</a>`;
+    cont.innerHTML = `<a href="index.html?comic=${comic}&page=${next}">${text}</a>`;
   }
 }
 function loadFunctionTitle(title) {
