@@ -26,7 +26,7 @@ window.onload = function() {
 };
 
 function loadPage(number) {
-  fetch(`${comic}/${number}.txt`)
+  fetch(`mmfa/${comic}/${number}.txt`)
   .then (response => response.text())
   .then (data => {
     const lines = data.split("\n");
